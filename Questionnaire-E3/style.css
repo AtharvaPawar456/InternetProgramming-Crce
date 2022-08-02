@@ -1,0 +1,90 @@
+.headDiv{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.box-1{
+    text-align: center;
+    width: 80%;
+    color: blue;
+    background-color: rgb(231, 249, 255);
+    margin: auto;
+    border: 5px rgb(229, 135, 135) solid;
+    border-width: 3px;
+    border-bottom-width:15px ;
+
+    padding: 20px;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+
+    /* margin: 20px ; */
+
+}
+
+body{
+    align-self: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(165, 77, 77, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .btn {
+    background-color: #4366e3;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    
+  }
+
+  .btn:hover {opacity: 0.6}
+
+  .submit-btn{
+    align-items: center;
+  }
+
+  table {
+    padding: 20px;
+    padding-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-style: dashed;
+    border-width: 2px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .cardContainer{
+    padding: 20px;
+    align-items: center;
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: DodgerBlue; */
+  }
